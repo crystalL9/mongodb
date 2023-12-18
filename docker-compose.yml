@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mongodb:
+    build: .
+    container_name: mongodb_container
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
