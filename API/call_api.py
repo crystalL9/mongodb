@@ -29,7 +29,7 @@ def insert(table_name, object_id, links):
             return result
         else:
             print(f"Error: {response.status_code} - {response.text}")
-    except requests.exceptionss.RequestException as e:
+    except requests.exceptions.RequestException as e:
         print(f"Error: {str(e)}")
 
 if __name__=="__main__":
