@@ -124,7 +124,7 @@ if __name__ == "__main__":
     folder_path="test"
     #insert_from_file_to_db(folder_path, table_name, db_name, db_address)
     #insert_ids(list_ids, table_name, db_name, db_address)
-    drop_all_documents(db_name, table_name, db_address)
+    #drop_all_documents(db_name, table_name, db_address)
     #insert_or_update_ids('test', ['123','234'], table_name, db_name, db_address)
     print("Data in Databse :")
     get_ids(table_name, db_name, db_address)
